@@ -1,0 +1,25 @@
+{
+  "id": "de.dresden-elektronic.zigbee",
+  "version": "1.0.0",
+  "compatibility": "4.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "Dresden Elektronik Zigbee Drivers"
+  },
+  "description": {
+    "en": "Let Homey control LED drivers manufactured by Dresden Elektronik.",
+    "nl": "Laat Homey LED drivers aansturen welke gefabriceerd zijn door Dresden Elektronik."
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Kaalus .",
+    "email": "homey@kaalus.nl"
+  }
+}
