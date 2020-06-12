@@ -1,0 +1,66 @@
+{
+  "id": "phoscon-fls-ct-lp",
+  "name": {
+    "en": "Phoscon FLS-CT lp"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "light_temperature"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": false
+    }
+  },
+  "zigbee": {
+    "manufacturerName": "dresden elektronik",
+    "productId": "FLS-CT",
+    "deviceId": [
+      544
+    ],
+    "profileId": [
+      49246
+    ],
+    "learnmode": {
+      "instruction": {
+        "en": "Toggle the LED driver. It should be added automatically.",
+        "nl": "Zet de LED driver één keer uit en weer aan. Deze wordt dan automatisch toegevoegd."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/phoscon-fls-ct-lp/assets/images/large.png",
+    "small": "/drivers/phoscon-fls-ct-lp/assets/images/small.png"
+  },
+  "settings": [
+    {
+      "id": "transition_time",
+      "type": "number",
+      "label": {
+        "en": "Dim duration",
+        "nl": "Dim duur"
+      },
+      "hint": {
+        "en": "This setting determines the time in seconds it takes to dim from one level to another. Note: this setting can be overriden by the duration value in a Flow Card.",
+        "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander. Let op: deze instelling kan tijdelijk overschreven worden door de dim duur waarde in een Flow Card.",
+        "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die für das Dimmen von einer auf die andere Stufe benötigt wird. Hinweis: diese Einstellung kann durch den Dauer-Wert in einer Flow-Karte überschrieben werden."
+      },
+      "value": 1,
+      "units": {
+        "en": "s",
+        "nl": "s"
+      },
+      "attr": {
+        "min": 0,
+        "max": 6553
+      }
+    }
+  ]
+}

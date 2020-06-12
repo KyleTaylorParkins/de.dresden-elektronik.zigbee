@@ -2,12 +2,12 @@
 
 const Homey = require('homey');
 
-class MyApp extends Homey.App {
+class DresdenElektronikZigbee extends Homey.App {
 	
 	onInit() {
-		this.log('MyApp is running...');
+		this.log('Started DresdenElektronikZigbee...');
 	}
 	
 }
 
-module.exports = MyApp;
+module.exports = DresdenElektronikZigbee;
