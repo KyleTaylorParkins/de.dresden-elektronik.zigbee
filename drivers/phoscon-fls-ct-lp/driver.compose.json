@@ -30,8 +30,8 @@
     ],
     "learnmode": {
       "instruction": {
-        "en": "Toggle the LED driver. It should be added automatically.",
-        "nl": "Zet de LED driver één keer uit en weer aan. Deze wordt dan automatisch toegevoegd."
+        "en": "Toggle the power to the LED driver. It should be added automatically afterwards.",
+        "nl": "Schakel de voeding van de LED driver één keer uit en weer aan. Deze wordt hierna dan automatisch toegevoegd."
       }
     }
   },
