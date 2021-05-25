@@ -4,5 +4,9 @@
   },
   "1.0.1": {
     "en": "Update app information"
+  },
+  "2.0.0": {
+    "en": "Upgrade to SDK 3 for Homey v5 and higher compatibility.",
+    "nl": "Upgrade naar SDK 3 om compatibel te zijn met Homey v5 en hoger."
   }
 }
