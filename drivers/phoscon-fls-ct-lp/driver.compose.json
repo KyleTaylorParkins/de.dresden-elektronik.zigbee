@@ -28,6 +28,17 @@
     "profileId": [
       49246
     ],
+    "endpoints": {
+      "10": {
+        "clusters": [
+          0,
+          4,
+          6,
+          8,
+          768
+        ]
+      }
+    },
     "learnmode": {
       "instruction": {
         "en": "Toggle the power to the LED driver. It should be added automatically afterwards.",

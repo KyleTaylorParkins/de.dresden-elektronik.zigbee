@@ -1,11 +1,13 @@
 {
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "de.dresden-elektronik.zigbee",
-  "version": "1.0.1",
-  "compatibility": ">=4.0.0",
-  "sdk": 2,
+  "version": "2.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
   "name": {
     "en": "Dresden Elektronik"
   },
+  "brandColor": "#676C6E",
   "tags": {
     "en": [
       "Dresden Elektronik",
@@ -59,6 +61,17 @@
         "profileId": [
           49246
         ],
+        "endpoints": {
+          "10": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
         "learnmode": {
           "instruction": {
             "en": "Toggle the power to the LED driver. It should be added automatically afterwards.",
