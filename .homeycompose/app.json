@@ -1,6 +1,6 @@
 {
     "id": "de.dresden-elektronik.zigbee",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "compatibility": ">=4.0.0",
     "sdk": 2,
     "name": {
