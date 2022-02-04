@@ -1,11 +1,12 @@
 {
     "id": "de.dresden-elektronik.zigbee",
-    "version": "1.0.2",
-    "compatibility": ">=4.0.0",
-    "sdk": 2,
+    "version": "2.0.0",
+    "compatibility": ">=5.0.0",
+    "sdk": 3,
     "name": {
       "en": "Dresden Elektronik"
     },
+    "brandColor": "#676C6E",
     "tags": {
         "en": [
             "Dresden Elektronik",

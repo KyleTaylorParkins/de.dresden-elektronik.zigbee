@@ -1,11 +1,12 @@
 {
   "name": "de.dresden-elektronic.zigbee",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "app.js",
   "devDependencies": {
     "homey": "^2.26.0"
   },
   "dependencies": {
-    "homey-meshdriver": "^2.0.3"
+    "homey-zigbeedriver": "^1.6.5",
+    "zigbee-clusters": "^1.4.0"
   }
 }
